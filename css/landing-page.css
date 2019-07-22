@@ -21,7 +21,7 @@ h6 {
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../img/background3.jpg") no-repeat center center;
+  background: url("../img/home-banner.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -43,8 +43,8 @@ header.masthead h1 {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
   }
   header.masthead h1 {
     font-size: 3rem;
@@ -88,6 +88,8 @@ header.masthead h1 {
 }
 
 .testimonials {
+  background-color: #343a40;
+  background: url("../img/home-banner.jpg") no-repeat center center;
   padding-top: 7rem;
   padding-bottom: 7rem;
 }
